@@ -1,0 +1,102 @@
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			margin: 50px;
+		}
+		main{
+			widows: 70%;
+			height: auto;
+			padding: 20px;
+			margin: 50px auto;
+			background: whitesmoke;
+			font-family: system-ui;
+			color: #666;
+		}
+		.header{
+			width: 90%;
+			height: 100px;
+			margin: auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.items-controller,
+		.search{
+			flex-shrink: 0;
+			display: flex;
+			align-content: center;
+			align-items: center;
+
+		}
+		select{
+		 	padding: 2px;
+	    	margin: 0 10px;
+	   		outline: none;
+	    	cursor: pointer;
+	    	border: none;
+	    	background: transparent;
+		}
+		.search > input{
+			padding: 8px;
+		    border: none;
+		    outline: navajowhite;
+		    margin: 0 0 0 20px;
+		    background: white;
+		}
+		.field{
+			width: 90%;
+			height: auto;
+			margin: auto;
+		}
+		table{
+			width: 100%;
+			margin: 2px auto;
+			table-layout: auto;
+			color: #757575;
+			background-color: #ffff;
+			border-collapse: collapse;
+			border-spacing: 0;
+			text-align: left;
+		}
+		table tr th, td{
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+		.bottom-field{
+			width: 100%;
+			padding: 20px;
+			margin-top: 20px;
+		}
+		.pagination{
+	      display: flex;
+	      justify-content: center;
+	      align-items: center;
+	    }
+	    .pagination li{
+	      list-style: none;
+	      padding: 2px;
+	      margin: 10px;
+	      flex-shrink: 0;
+	      text-align: center;
+	      border-radius: 5px;
+	      border: 1px solid #999;
+	      color: #999;
+	    }
+	    .pagination li.active{
+	      background: #32d6aa;
+	      color: white;
+	      border-color: #32d6aa;
+
+	    }
+	    .pagination li a{
+	      text-decoration: none;
+	      padding: 3px 8px;
+	      color: inherit;
+	      display: block;
+	      font-family: sans-serif;
+	      font-size: 13px;
+	    }
+	    i.fa-edit{color: lime;}
+		i.fa-trash{color: red;}
